@@ -14,12 +14,14 @@ There are also several types of content you can post within the paragraphs. They
 
 ##Quotes
 Blockquote:
+```html
 <div class="blockquote">
 <p class="quote">This is where a block quote will go. Block quotes are super exciting. You should probably be really pumped to have one on your page.</p>
 <p class="attribution">- Frank Johnson</p>
 <p class="detail">He is a super cool dude so you should listen to him</p>
 <div class="blockquote-clear" style="clear: both;"> </div>
 </div>
+```
 
 Pullquote:
 <div class="pullquote right">
