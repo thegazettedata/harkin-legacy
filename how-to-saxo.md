@@ -24,11 +24,13 @@ Blockquote:
 ```
 
 Pullquote:
+```html
 <div class="pullquote right">
 <p class="quote">"This is the quote for the story. I hope that you find it really compelling and fun."</p>
 <p class="attribution">- Frank Johnson</p>
 <p class="detail">On being an awesome guy</p>
 </div>
+```
 
 ##iFrames
 You can post iFrames within the paragraphs, like you can with other stories. You also have a few style options to decide how you want them placed on the page:
@@ -48,76 +50,96 @@ Left
 Right
 - Same as "left" only it floats the embed to the right.
 
-##Examples
+###Examples
 Examples of lazyload and center:
+```html
 <div class="lazyload"><!--
 <div class="center">
 <iframe frameborder="0" height="325" src="http://files.gazlab.com/content-host/jm/poverty-pct-table.html" width="100%">
 </div>
 --></div>
+```
 
 Example of lazyload and center without margins:
+```html
 <div class="lazyload"><!--
 <div class="center-no-margin">
 <iframe frameborder="0" height="325" src="http://files.gazlab.com/content-host/jm/poverty-pct-table.html" width="100%"></iframe>
 </div>
 --></div>
+```
 
 Example of lazyload and left:
+```html
 <div class="lazyload"><!--
 <div class="left">
 <h3 style="width: 420px;">Cedar Rapids speed cameras on Interstate 380</h3>
 <iframe frameborder="0" height="690" src="http://files.gazlab.com/content-host/locatormaps/map-i380-cameras.html" width="420"></iframe>
 </div>
 --></div>
+```
 
 ##Embeds
 You can use all the embed code spots under "Extra Fields" in the story to embed content like you would with any other story. The difference is you will need to decide exactly where you want the content to go within the article.
 
 So to post a Bimvid video, for example, add the video's id to the Bimvid id 1 spot. Then add this DIV wherever you want the video to go on the page:
+```html
 <div id="bimvidid1" class="center"></div>
+```
 
 Note: You can use all of the classes listed under iFrames above. You also don't need to use the "lazyload" class, as it is automatically added.
 
 To use the embed code 1 spot, add the following on the page:
+```html
 <div id="embedcode1" class="center-no-margin"></div>
+```
 
 You can also use the name field to include a header above the embed
 
 If one of you  embed code spots is a video, wrap it in a div with the ID of "mediawell-video-holder" like so:
+```html
 <div id="mediawell-video-holder">
 <script src='http://player.bimvid.com/v2/vp/kcrg/108d438a60eca86718f298c7aaf78738fc2b95ec'></script>
 </div>
+```
 
 To use a Slideshow pro gallery:
+```html
 <div id="slideshowproid" class="center"></div>
+```
 
 ##Photos
 You can also place as many photos as you want within the story. First, upload the photos into the Pictures section of the story, like you would any other story.
 
 If you want to post an individual photo, use this:
+```html
 <div id="extrapicture2" class="extrapicture_ind right"></div>
+```
 
 That will post Extra Picture 2. If you want to post a different photo, just change the number within the DIV's id.
 
 If you want to post a gallery of all the extra pictures, use this DIV:
+```html
 <div id="extrapictures" class="center"></div>
+```
 
 ##Ads:
 We must put two ads on the page somehwere. You have the freedom to decide where they will go. 
 
 This should go in the second chapter or later
+```html
 <div id="ad-medrec-top" class="right">
 <script type="text/javascript">
 googletag.cmd.push(function() { googletag.display('ad-medrec-top'); });
 </script>
 </div>
-
+```
 This should go in the fourth chapter or later:
+```html
 <div id="ad-medrec-bottom" class="left">
 <script type="text/javascript">
 googletag.cmd.push(function() { googletag.display('ad-medrec-bottom'); });
 </script>
 </div>
-
+```
 Note: You can change the class name if you want but leave the id name
