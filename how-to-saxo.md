@@ -32,6 +32,8 @@ Pullquote:
 </div>
 ```
 
+The “left” property on the pull quote div will make the quote float to the left of the screen. You can change this property to “right” to make it float to the right instead. For more information on these properties, read on.
+
 ##iFrames
 You can post iFrames within the paragraphs, like you can with other stories. You also have a few style options to decide how you want them placed on the page:
 
