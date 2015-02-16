@@ -12,6 +12,12 @@ You can have up to eight paragraphs in the story. Also make sure to pick good ph
 
 There are also several types of content you can post within the paragraphs. They are listed below:
 
+##Summary
+The template has a grey summary box at the beginning of the first chapter. To add text to the box, enter it into the "Summary" field in the story in the Edit UI. NOTE: HTML is valid.
+
+If you'd like to change the header of that box, use the "Pull Quote" field. Otherwise, it will default to "Highlights from this story".
+
+
 ##Quotes
 Blockquote:
 ```html
