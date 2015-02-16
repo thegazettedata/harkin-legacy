@@ -6,6 +6,8 @@ Stories that use the feature article template are posted in Saxo, just like ever
 
 First off, you will need to change the Category of the story to Feature Article Template. This is under Properties in Saxo.
 
+The story, like all others, needs a headline (which is put in the "Title" field) and byline information. If you include a "Title" and a "Subtitle", both will appear within the first slide. The story's publication date will also be added to that slide.
+
 Stories are broken into several paragraphs, instead of being put all into the first paragraph. Each paragraph becomes a chapter in the feature article template (see the Harkin story for an example) and must have a photo and a headline attached to it. The one exception is the first paragraph, which shouldn't have a photo or a headline. The photo for this section is the Main photo attached to the story. The headline is the Title for the story.
 
 You can have up to eight paragraphs in the story. Also make sure to pick good photos with each paragraph, as they are featured prominently with the template.
@@ -151,3 +153,9 @@ googletag.cmd.push(function() { googletag.display('ad-medrec-bottom'); });
 </div>
 ```
 Note: You can change the class name if you want but leave the id name
+
+
+##Teasing the story
+For promotional purposes, we need to create a separate article with the story's main photo, the first paragraph, an external link to the actual story's URL and all the appropriate taxonomies and profiles. This second article is what is put in the rotator and promoted on the index pages.
+
+There’s a few reasons we do it this way. The short of it is our site likes it better when it’s set up this way. Things can get funky on the index pages if we try to promote the actual story and not the article with the external link.
