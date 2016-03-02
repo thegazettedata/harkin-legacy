@@ -6,6 +6,8 @@ Stories that use the feature article template are posted in Saxo, just like ever
 
 First off, you will need to change the Category of the story to Feature Article Template. This is under Properties in Saxo.
 
+ALSO NOTE: When you add profiles to the story, DO NOT set any of them to "Main profile". If a "Main profile" is set, the feature article template will not work.
+
 The story, like all others, needs a headline (which is put in the "Title" field) and byline information. If you include a "Title" and a "Subtitle", both will appear within the first slide. The story's publication date will also be added to that slide.
 
 Stories are broken into several paragraphs, instead of being put all into the first paragraph. Each paragraph becomes a chapter in the feature article template (see the Harkin story for an example) and must have a photo and a headline attached to it. The one exception is the first paragraph, which shouldn't have a photo or a headline. The photo for this section is the Main photo attached to the story. The headline is the Title for the story.
